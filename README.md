@@ -22,6 +22,8 @@ In this first practice we will use msfvenom to create an application which will 
 ┌──(root㉿CarlosSantos)-[/home/kali]
 └─# `python3 -m http.server 80`
 
+
+
    >[!IMPORTANT]
    >
    >Recuerda conectarte al servidor con tu android en este caso deben estar en la misma red ya que el servidor es local al igual que nuestro ataque
