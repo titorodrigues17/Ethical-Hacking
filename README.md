@@ -72,10 +72,10 @@ payload => android/meterpreter/reverse_tcp
 
 1. *The set payload android/meterpreter/reverse_tcp command is used in the msfconsole command line interface of the Metasploit Framework.*
 
-**This command configures the payload to be used in the currently selected module. In this case, the payload is android/meterpreter/reverse_tcp.*
+* *This command configures the payload to be used in the currently selected module. In this case, the payload is android/meterpreter/reverse_tcp.*
 
-**Here is the meaning of each part of the payload:*
+* *Here is the meaning of each part of the payload:*
 
-**android: Indicates that the payload is designed for Android systems.*
-**meterpreter: It is an advanced and versatile Metasploit shell that provides a number of features, such as the ability to migrate between different processes, load scripts and extensions at runtime, and capture keyboard and screen input.reverse_tcp: This is a type of connection in which the target machine establishes the connection back to the attacker (i.e. "reverse"), which can be useful for bypassing certain types of firewalls.*
+* *android: Indicates that the payload is designed for Android systems.*
+* *meterpreter: It is an advanced and versatile Metasploit shell that provides a number of features, such as the ability to migrate between different processes, load scripts and extensions at runtime, and capture keyboard and screen input.reverse_tcp: This is a type of connection in which the target machine establishes the connection back to the attacker (i.e. "reverse"), which can be useful for bypassing certain types of firewalls.*
 ####
