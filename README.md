@@ -110,8 +110,5 @@ View the full module info with the info, or info -d command.
 
 
 
-* *Este comando muestra las opciones disponibles para el módulo actualmente seleccionado. Estas opciones pueden incluir detalles como la dirección IP y el puerto del host objetivo, la dirección IP y el puerto del host local, las credenciales para autenticarse en el host objetivo, y más.*
+* *This command displays the options available for the currently selected module. These options can include details such as the IP address and port of the target host, the IP address and port of the local host, credentials to authenticate to the target host, and more.*
 
-
-types of firewalls.*
-####
