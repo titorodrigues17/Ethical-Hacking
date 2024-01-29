@@ -1,6 +1,6 @@
 # Ethical-Hacking
 ─(root㉿CarlosSantos)-[/home/kali]
 └─# `python3 -m http.server 80`
-   >[!NOTE]
+   >[!situacion]
    >
    >This is note text.
