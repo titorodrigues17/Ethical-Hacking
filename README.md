@@ -1,4 +1,4 @@
 # Ethical-Hacking
 Practices with kali linux 
 
-´sudo -s´
+`sudo -s`
