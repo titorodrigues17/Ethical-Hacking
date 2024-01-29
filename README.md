@@ -1,4 +1,3 @@
 # Ethical-Hacking
-Practices with kali linux 
-
-`sudo -s`
+─(root㉿CarlosSantos)-[/home/kali]
+└─# `python3 -m http.server 80`
